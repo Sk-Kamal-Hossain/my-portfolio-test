@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     font-size: 20px;
 }
@@ -31,9 +31,17 @@ section{
     font-weight: 700;
 }
 .top-banner{
-    background-image: url(img/top-banner.png);
+    background-image: url(/img/top-banner.png);
     background-repeat: no-repeat;
 }
 .dreams{
     margin-top: 100px;
+}
+.dreams{
+    background-image: url(/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiences h1{
+    display: ruby-base;
 }

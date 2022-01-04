@@ -42,16 +42,27 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experiences{
+    margin-top: 100px;
+    background-image: url(/img/exp-bg.png);
+    background-repeat: no-repeat;
+}
 .experiences h1{
     display: ruby-base;
 }
 #full-stack{
-    box-shadow: 10px 5px 10px red;
+    box-shadow: 10px 5px 10px cyan;
     padding-left: 2%;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 #baby-stack{
     box-shadow: 10px 5px 10px red;
     padding-left: 2%;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
 }
 .experiences-item{
     width: 40%;
@@ -59,4 +70,7 @@ h1{
     margin-right: 5%;
     margin-bottom: 20%;
     border-radius: 15px;
+}
+footer{
+    text-align: center;
 }
